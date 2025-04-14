@@ -1,4 +1,5 @@
 **GAME INSTRUCTIONS**
+
 **Run the Game:**
    ```
    python3 GameCode.py

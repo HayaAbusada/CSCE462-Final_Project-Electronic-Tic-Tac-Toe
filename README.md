@@ -1,5 +1,7 @@
 **GAME INSTRUCTIONS**
 
+Connect Bread Board to Raspberry Pi and ssh Group1@pi.local - enter password
+
 **Run the Game:**
    ```
    python3 GameCode.py

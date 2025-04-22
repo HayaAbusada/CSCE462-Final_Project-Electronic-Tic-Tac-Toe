@@ -10,15 +10,15 @@ GPIO.setmode(GPIO.BCM)
 
 # Pin map for the 3x3 grid (row, col) mapped to GPIO pins
 sensor_pins = {
-    (0, 0): 23,
-    (1, 0): 20,
-    (2, 0): 21,
-    (0, 1): 25,
-    (1, 1): 12,
-    (2, 1): 26,
-    (0, 2): 24,
-    (1, 2): 16,
-    (2, 2): 19,
+    (0, 0): 21, # top left
+    (1, 0): 26, # middle left
+    (2, 0): 19, # bottom left
+    (0, 1): 20, # top middle
+    (1, 1): 12, # middle middle
+    (2, 1): 16, # bottom middle
+    (0, 2): 23, # top right
+    (1, 2): 25, # middle right
+    (2, 2): 24, # bottom right
 }
 
 # Configure all sensor pins as inputs with pull-down resistors
